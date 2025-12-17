@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>AI Ride Compare</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+  <h1>🚕 AI Ride Compare</h1>
+  <p class="sub">Compare Ola, Uber, Rapido & inDrive</p>
+
+  <input id="distance" type="number" placeholder="Distance (km)">
+  <input id="time" type="number" placeholder="Estimated time (minutes)">
+
+  <select id="preference">
+    <option value="cheap">Cheapest</option>
+    <option value="fast">Fastest</option>
+    <option value="comfort">Comfort</option>
+  </select>
+
+  <button id="compareBtn">Compare Rides</button>
+
+  <div class="table" id="results"></div>
+
+  <p class="disclaimer">
+    Estimates only. Actual booking happens on respective apps.
+  </p>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
